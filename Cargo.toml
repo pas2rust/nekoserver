@@ -1,6 +1,18 @@
 [package]
 name = "nekoserver"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
-
-[dependencies]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/pas2rust/nekoserver"
+readme = "README.md"
+exclude = [
+    "tests/*",
+    "tests",
+    "main.rs"
+]
+categories = ["web-programming", "api-bindings", "network-programming"]
+description = "Macro that automatically generates a complete backend with CRUD operations, caching, and other essential features from a derive."
+keywords = ["backend", "crud", "cache", "derive", "macro", "web"]
+authors = ["pas2rust <pas2000@proton.me>"]
+homepage = "https://github.com/pas2rust/nekoserver"
+documentation = "https://docs.rs/nekoserver"
